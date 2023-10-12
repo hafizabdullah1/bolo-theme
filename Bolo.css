@@ -1,0 +1,838 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+p{
+    font-family: 'Open Sans', sans-serif !important;
+    color: rgb(77, 70, 70);
+}
+.homepage{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./www_madebydesignesia_com/5.jpg);
+    background-size: 100% 120%;
+    height: 100vh;
+    width: 100%;
+    /* background: #000; */
+    box-sizing: border-box;
+    padding-top: 26px;
+}
+.homepage nav{
+    height: 11vh;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+}
+.homepage img{
+    position: absolute;
+    top: 0px;
+    left: 117px;
+}
+.homepage ul{
+    position: absolute;
+    right: 120px;
+    list-style-type: none;
+}
+.homepage li{
+    float: left;
+    margin-left: 35px;
+    font-weight: lighter;
+    margin-top: 25px;
+    color: rgb(41, 39, 39);
+    font-size: 14px;
+}
+.homepage li:hover{
+    cursor: pointer;
+    color: rgb(235,54,72);
+    transition-duration: 0.5s;
+}
+.homepage h1{
+    font-size: 115px;
+    color: white;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 0px;
+    margin-top: 150px;
+    word-spacing: 0.5px;
+}
+.line{
+    height: 2vh;
+    width: 22.5vw;
+    background-image: linear-gradient(rgb(244,91,67),rgb(235,54,72));
+    position: relative;
+    left: 770px;
+    top: -126px;
+}
+.border{
+    height: 6vh;
+    width: 1.5vw;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: relative;
+    left:48.5%;
+    top: 120px;
+}
+.web{
+    height: 80vh;
+    width: 100%;
+    /* background: #000; */
+    box-sizing: border-box;
+    padding: 110px;
+    position: relative;
+}
+.design{
+    height: 22vh;
+    width: 25vw;
+    /* background-color: #09dfee; */
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+
+}
+.design i{
+    font-size: 32px;
+    color: rgb(235,54,72);
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+
+}
+.design h3{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    /* font-size: 20px; */
+}
+.design p{
+    color: rgba(77, 70, 70, 0.519);
+    position: absolute;
+    top: 40px;
+    line-height: 1.5;
+    left: 50px;
+}
+.design:hover i{
+    top:-20px;
+    transition-duration: 0.5s;
+}
+.laptop{
+    height: 81vh;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    position: relative;
+}
+.laptop img{
+    position: absolute;
+    top: 107px;
+    left: 115px;
+    height: 51.5vh;
+}
+.laptop h1{
+    position: absolute;
+    top:130px;
+    color: white;
+    right: 165px;
+    font-size: 35px;
+    line-height: 1.2;
+    /* position: relative; */
+}
+.laptop span{
+    position: relative;
+}
+.laptop hr{
+    height: 3px;
+    width: 98%;
+    position: absolute;
+    left:0;
+    border:none;
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+    bottom:5px;
+}
+.laptop p{
+    position: absolute;
+    right: 120px;
+    top:240px ;
+    line-height: 1.6;
+    color: lightgrey;
+    /* font-size: 17px; */
+}
+.btn{
+    height: 5.6vh;
+    width: 11.5vw;
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    bottom: 90px;
+    right: 31.1%;
+    color: white;
+}
+.btn:hover{
+    background-image: linear-gradient(to right,#ec3847e4,#f45b43da);
+    cursor: pointer;
+}
+.gif{
+    height: 88vh;
+    width: 100%;
+    background: rgba(30, 30, 30, .5);
+    background-image: url(./www_madebydesignesia_com/a876d3d1304c6b4b46648aceda8caa4a.gif);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    padding-top: 170px;
+    padding-left: 90px;
+
+}
+.card{
+    height: 41vh;
+    width: 19vw;
+    border: 1px solid rgba(167, 162, 162, 0.188);
+    border-radius: 8px;
+    float: left;
+    margin-left: 25px;
+    position: relative;
+    overflow: hidden;
+}
+.card i{
+    font-size: 70px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    color: rgb(235,54,72);
+}
+.card h3{
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 107px;
+}
+.card h4{
+    color: rgb(77, 70, 70);
+    top: 200px;
+    left: 90px;
+    position: absolute;
+}
+.flow{
+    height: 41vh;
+    width: 19vw;
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+    border-radius: 8px;
+    position: absolute;
+    top:290px;
+}
+.card:hover .flow{
+    top:0;
+    transition-duration: 0.5s;
+}
+.flow p{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 85px; 
+    left: 37px;
+    line-height: 1.8;
+}
+.card:hover{
+    
+    transition-duration: 1s;
+    border:1px solid transparent;
+}
+.card:hover i{
+    color: transparent;
+    transition-duration: 0.3s;
+}
+.card:hover h3{
+    color: transparent;
+    /* transition-duration: 1s; */
+
+}
+.card:hover h4{
+    /* transition-duration: 1s; */
+    color: transparent; 
+}
+.tower{
+    left: 89px !important;
+}
+.tv{
+    font-size: 65px !important;
+    left: 88px !important;
+}
+.mainpic{
+    height: 94.5vh;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+
+}
+.over{
+    height: 47.3vh;
+    width: 33.33%;
+    overflow: hidden;
+    float: left;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/* .over:hover{  
+    transition-duration: 1s;
+} */
+.pic{
+    height: 47.3vh;
+    width: 100%;
+    background-image: url(./www_madebydesignesia_com/pf\ \(1\).jpg);
+    background-size: 100% 100%;
+    transition-duration: 1s;
+    cursor: pointer;
+    position: relative;
+}
+.pic div{
+    height: 100%;
+    width: 100%;
+    padding-top: 160px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+.pic div:hover{
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+    box-sizing: border-box;
+    transition-duration: 1s;   
+    transition-delay: 0.5s;
+}
+.pic p{
+    color: transparent;
+    text-align: center;
+    transition-duration: 0.5s;
+}.pic:hover{
+    transform: scale(1.1);
+    /* transition-duration: 0.5s; */
+}
+.pic:hover{
+    background-color: transparent;
+}
+.pic:hover p{
+    color: white;
+    transition-duration: 1s;
+}
+.pic1{
+    background-image: url(./www_madebydesignesia_com/pf\ \(2\).jpg);
+}
+.pic2{
+    background-image: url(./www_madebydesignesia_com/pf\ \(3\).jpg);
+}
+.pic3{
+    background-image: url(./www_madebydesignesia_com/pf\ \(4\).jpg);
+}
+.pic4{
+    background-image: url(./www_madebydesignesia_com/pf\ \(5\).jpg);
+}
+.pic5{
+    background-image: url(./www_madebydesignesia_com/pf\ \(6\).jpg);
+}
+
+.mobile{
+    height: 127vh;
+    width: 100%;
+    /* background-color: #F45B43; */
+    padding-top: 160px;
+    box-sizing: border-box;
+    position: relative;
+}
+.page{
+    height: 25vh;
+    width: 28vw;
+    /* background-color: #086fa7; */
+    float: left;
+    margin-left: 95px;
+    margin-top: 20px;
+    /* color: white; */
+    position: relative;
+}
+.page2{
+   margin-left: 400px;
+   box-sizing: border-box; 
+}
+.page h3{
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+.page2 h3{
+    left: 60px !important;
+}
+.page2 i{
+    left: 0 !important;
+}
+.one{
+    color: white;
+    border-radius: 100px;
+    background-color: #ec3848;
+    position: absolute;
+    right: 0;
+    top:0;
+    font-size: 19px;
+    height: 5.4vh;
+    width: 3.5vw;
+    text-align: center;
+    padding-top: 15px;
+}
+.page p{
+    position: absolute;
+    top: 45px;
+    right: 60px;
+    text-align: end;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.page2 p{
+    left: 60px !important;
+    text-align: start !important;
+    width: 300px;
+}
+.mobile img{
+   height: 96vh;
+   width: 27.4%; 
+   position: absolute;
+   top: 120px;
+   left: 36.5%;
+}
+.dream{
+    height: 80vh;
+    width: 100%;
+    background: #b904a4;
+    position: relative;
+}
+.computer{
+    height: 100%;
+    width: 50%;
+    background-image: url(./www_madebydesignesia_com/6\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size: 70% 100%;
+    float: left;
+}
+.make{
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(to bottom right,#EC3848,#F45B43);
+    position: absolute;
+    right: 0;
+}
+.make h1{
+    color: white;
+    position: relative;
+    top: 100px;
+    font-size: 36px;
+    left:105px;
+    width: 70%;
+}
+.make p{
+    position: relative;
+    top: 115px;
+    left: 105px;
+    color: rgba(255, 255, 255, 0.696);
+    line-height: 1.7;
+    font-weight: 300;
+    width: 80%;
+}
+.make button{
+    height: 6.5vh;
+    width: 10.5vw;
+    border: 1px solid white !important;
+    color :white;
+    border-radius: 30px;
+    border: none;
+    background: transparent;
+    position: relative;
+    top: 150px;
+    left: 105px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+.make button:hover{
+    background-color: #fff;
+    color: black;
+    transition-duration: 0.6s;
+}
+.team{
+    height: 110vh;
+    width: 99.85%;
+    /* background-color: rgb(67, 173, 244);  */
+    padding: 1px; 
+    position: relative;
+}
+.team h1{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 35px;
+
+}
+.team span{
+    position: relative;
+}
+.team hr{
+    height: 3px;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(to bottom right,#EC3848,#F45B43);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+}
+.teampic{
+    height: 55vh;
+    width: 19vw;
+    background: #b904a4;
+    position: relative;
+    float: left;
+    margin-left: 26px;
+    top: 30px;
+    left: 90px;
+    overflow: hidden;
+}                                      
+.pict{
+    height: 55vh;
+    width: 100%;
+    background-image: url(./www_madebydesignesia_com/1\ \(2\).jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 1s;
+
+}
+.pict1{
+    background-image: url(./www_madebydesignesia_com/2\ \(1\).jpg);
+}
+.pict2{
+    background-image: url(./www_madebydesignesia_com/3.jpg);
+}
+.pict3{
+    background-image: url(./www_madebydesignesia_com/4.jpg);
+}
+.pict i{
+    background-color: rgb(62, 90, 155);
+    color: white;
+    position: relative;
+    left: 60px;
+    border-radius: 100px;
+    height: 4vh;
+    width: 1.8vw;
+    padding-top: 10px;
+    padding-left: 10px;
+    top: 350px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+.pict:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.pict:hover i{
+    top: 270px;
+    transition-duration: 0.7s;
+}
+.twit{
+    background-color: rgb(85, 173, 237) !important;
+}
+.ld{
+    background-color: rgb(0, 117, 173) !important;
+}
+.gp{
+    background-color: rgb(223, 79, 55) !important;
+}
+.ceo{
+    height: 10vh;
+    position: relative;
+    top: 30px;
+    width: 19vw;
+    left: 6.7%;
+    /* background-color: #b904a4; */
+    /* margin-top: 20px; */
+    margin-left: 25px;
+    float: left;
+}
+.ceo h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.ceo h6{
+    text-align: center;
+    color: rgb(235,54,72);
+    font-weight: 100;
+}
+.num{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(33, 33,33);
+}
+.number{
+    height: 100%;
+    width: 25%;
+    /* background-color: #b904a4; */
+    float: left;
+    position: relative;
+    /* border-right: 1px solid black; */
+}
+.number h1{
+    color: white;
+    position: absolute;
+    top:100px;
+    right: 43px;
+    font-size: 35px;
+}
+.number h6{
+    position: absolute;
+    right: 40px;
+    top: 157px;
+    color:white
+}
+.num2 h1{
+    position: absolute;
+    left: 160px;
+}
+.num2 h6{
+    left: 147px;
+}
+.num3 h1{
+    left: 115px;
+}.num3 h6{
+    left: 90px;
+}
+.num4 h1{
+    left: 70px;
+}
+.num4 h6{
+    left: 45px;
+}
+.latest{
+    height: 65vh;
+    width: 99.86%;
+    /* background-color: #b904a4; */
+    padding: 1px;
+    position: relative;
+}
+.latest span{
+    position: relative !important;
+    /* width: 10% !important; */
+    /* border-bottom:3px solid #EC3848; */
+    /* background-image: linear-gradient(to bottom right,#EC3848,#F45B43); */
+}
+.latest hr{
+    height: 3px;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(to bottom right,#b72531,#F45B43) ;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+}
+.latest h1{
+    text-align: center;
+    margin-top: 80px;
+}
+.calender{
+    height: 25vh;
+    width: 26%;
+    /* background-color: #ec3848; */
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+    left: 75px;
+}
+.calender h1{
+    color: white;
+    /* border: 1px solid red; */
+    width: 52px;
+    letter-spacing: 5px;
+    background-image: linear-gradient(to bottom right,#b72531,#F45B43);
+    position: absolute;
+    top: -40px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+.calender h5{
+    width: 52px;
+    color: white;
+    background-color: rgb(77, 70, 70);
+    /* border: 1px solid black; */
+    position: absolute;
+    top:48px;
+    text-align: center;
+}
+.calender h3{
+    position: absolute;
+    top: 0;
+    left: 67px;
+}
+.calender p{
+    line-height: 1.8;
+    color:rgba(77, 70, 70, 0.682);
+    position: absolute;
+    left:67px;
+    top: 40px;
+    font-size: 15px;
+}
+.bolo{
+    height: 100vh;
+    background: rgb(33, 33,33);
+    width: 99.88%;
+    padding: 1px;
+    position: relative;
+}
+.bolo h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+}
+.bolo span{
+    position: relative;
+}
+.bolo hr{
+    height: 3px;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(to bottom right,#b72531,#F45B43) ;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    /* position: relative; */
+}
+.name{
+    height: 7vh;
+    width: 25vw;
+    border: 1px solid rgba(101, 98, 98, 0.504);
+    background-color: transparent;
+    position: absolute;
+    top: 29%;
+    left: 22%;
+    border-radius: 5px;
+    color: white ;
+    padding-left: 10px;
+    /* margin-top: 50px; */
+    outline: none;
+}
+.email{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+}
+.ph{
+    position: absolute;
+    top: 51%;
+    left: 22%;
+}
+.msg{
+    height: 29%;
+    width: 28%;
+    position: absolute;
+    top:29%;
+    left: 50%;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.btn2{
+    height: 6.4vh;
+    position: absolute;
+    width:11vw;
+    bottom:32%;
+    left: 44%;
+}
+/* th{
+    border: 1px solid red;
+    width: 20%;
+}
+td{
+    width: 20%;
+    border: 1px solid red;
+    text-align: center;
+} */
+::placeholder{
+    color: white;
+}
+.down{
+    height: 20vh;
+    width: 99.88%;
+    /* background: #000; */
+    position: absolute;
+    bottom: 20px;
+}
+.down div{
+    height: 100%;
+    width: 33%;
+    /* background-color: #b904a4; */
+    float: left;
+    /* margin-left: 5px; */
+    position: relative;
+}
+.down h5{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    color: white;
+    width: 20%;
+}
+.down p{
+    position: absolute;
+    color: white;
+    left:53%;
+    top: 30%;
+    font-weight: normal;
+    /* border: 1px solid black; */
+    width: 50%;
+    font-style: bold ;
+}
+.scnd{
+    left: 42% !important;
+}.scnd2{
+    left: 25% !important;
+    width: 60% !important;
+    /* border: 1px solid !important; */
+}
+.third{
+    left: 30% !important;
+}
+.third2{
+    left: 20% !important;
+}
+.footer{
+    height: 15.6vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    top: 45px;
+    left: 110px;
+    font-size: 15px;
+    color: rgba(41, 39, 39, 0.569);
+}
+.footer i{
+    padding: 10px;
+    border-radius: 100px;
+    background-color: rgb(62, 90, 155);
+    color: white;
+    /* position: absolute; */
+    position: relative;
+    left: 71%;
+    top: 30px;
+    width: 1.3vw;
+    /* padding-right: 6px; */
+    margin-left: 10px;
+    text-align: center;
+}
+.wifi{
+    background-color: #F45B43 !important;
+}
+.face:hover{
+    background-color: transparent !important;
+    cursor: pointer;
+    color: rgb(77, 70, 70);
+    transition-duration: 0.7s;
+}
